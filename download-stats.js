@@ -4,6 +4,7 @@
 // @version      1.0
 // @description  Download JPDB stats into JSON file.
 // @author       miere
+// @website      https://github.com/miere43/jpdb-userscripts/blob/main/download-stats.js
 // @match        https://www.jpdb.io/stats
 // @icon         https://www.google.com/s2/favicons?domain=jpdb.io
 // @grant        GM_download
