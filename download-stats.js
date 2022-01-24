@@ -176,8 +176,7 @@
             if (text.startsWith('Current streak: ')) {
                 currentStreak = parseInt(text.slice('Current streak: '.length));
             } else if (text.startsWith("You're currently ")) {
-                const length = "You're currently ".length;
-                leaderboard = parseInt(text.slice(length, length + 1));
+                leaderboard = parseInt(text.slice("You're currently ".length));
             }
         }
 
